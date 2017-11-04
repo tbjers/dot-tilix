@@ -1,5 +1,5 @@
 # tbjers/dot-tilix
-My [Gnome Terminal][tilix] dotfiles, [ellipsis][ellipsis] compatible.
+My [Tilix][tilix] dotfiles, [ellipsis][ellipsis] compatible.
 
 ## Install
 Clone and symlink or install with [ellipsis][ellipsis]:
