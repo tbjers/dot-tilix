@@ -14,9 +14,11 @@ pkg.install() {
   case $(os.platform) in
     linux)
       if utils.cmd_exists add-apt-repository; then
-        sudo add-apt-repository ppa:webupd8team/terminix
-        sudo apt-get update
-        sudo apt-get install -y tilix
+        if ! utils.cmd_exists tilix; then
+          sudo add-apt-repository ppa:webupd8team/terminix
+          sudo apt-get update
+          sudo apt-get install -y tilix
+        fi
       fi
       ;;
   esac
