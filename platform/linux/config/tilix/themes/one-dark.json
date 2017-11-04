@@ -1,0 +1,29 @@
+{
+  "name": "One Dark",
+  "comment": "Atom One Dark based theme",
+  "foreground-color": "#abb2bf",
+  "background-color": "#282c34",
+  "use-theme-colors": false,
+  "use-highlight-color": false,
+  "use-cursor-color": false,
+  "use-badge-color": true,
+  "badge-color": "#c678dd",
+  "palette": [
+    "#000000",
+    "#e06c75",
+    "#98c379",
+    "#d19a66",
+    "#61aeee",
+    "#c678dd",
+    "#56b6c2",
+    "#abb2bf",
+    "#5c6370",
+    "#e06c75",
+    "#98c379",
+    "#d19a66",
+    "#62afee",
+    "#c678dd",
+    "#56b6c2",
+    "#ffffff"
+  ]
+}
