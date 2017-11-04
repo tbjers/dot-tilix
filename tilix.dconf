@@ -1,0 +1,12 @@
+[profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d]
+foreground-color='#ABB2BF'
+visible-name='Default'
+palette=['#000000', '#E06C75', '#98C379', '#D19A66', '#61AEEE', '#C678DD', '#56B6C2', '#ABB2BF', '#5C6370', '#E06C75', '#98C379', '#D19A66', '#62AFEE', '#C678DD', '#56B6C2', '#FFFFFF']
+badge-color-set=true
+use-system-font=false
+cursor-colors-set=false
+highlight-colors-set=false
+use-theme-colors=false
+bold-color-set=false
+font='Input Mono 12'
+background-color='#282C34'

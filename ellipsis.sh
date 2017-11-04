@@ -19,6 +19,9 @@ pkg.install() {
           sudo add-apt-repository ppa:webupd8team/terminix
           sudo apt-get update
           sudo apt-get install -y tilix
+          if utils.cmd_exists dconf; then
+            dconf load /com/gexperts/Tilix/ < tilix.dconf
+          fi
         fi
       fi
       ;;
