@@ -5,7 +5,8 @@
 pkg.link() {
   case $(os.platform) in
     linux)
-      fs.link_file themes/one-dark.json "$HOME/.config/tilix/themes/one-dark.json"
+      mkdir -p "$HOME/.config"
+      fs.link_file common "$HOME/.config/tilix"
       ;;
   esac
 }
